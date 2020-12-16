@@ -1,12 +1,12 @@
 
 
-# Messenger
-
 <!-- /TOC -->
 
-<div align=center><img src="imgs/login_background.png" alt="Logo" title="Logo" width="800px"/></div>
+<div align=center><img src="imgs/login_background.png" alt="Logo" title="Logo" width="700px"/></div>
 
 <!-- TOC -->
+
+# Messenger
 
 A simple chat tool implemented from scratch.  Coursework of course IS301, Computer Communication and Network, SJTU.
 
