@@ -10,7 +10,11 @@ A simple chat tool implemented from scratch.  Coursework of course IS301, Comput
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
   - [Usage](#usage)
-  - [To Do](#to-do)
+  - [Supplement](#supplement)
+    - [IP Settings](#ip-settings)
+    - [Original Accounts](#original-accounts)
+  - [Contributor](#contributor)
+  - [Contact Me](#contact-me)
 
 <!-- /TOC -->
 
