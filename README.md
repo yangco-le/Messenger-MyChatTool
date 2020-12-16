@@ -48,8 +48,8 @@ cd Messenger-MyChatTool
 
 pip install -r requirements.txt
 python server.py
-python login.py    # Client 1: You mat log in with: Account 518030910001, Password 1
-python login.py    # Client 2: You mat log in with: Account 518030910002, Password 2
+python login.py    # Client 1: You may log in with: Account 518030910001, Password 1
+python login.py    # Client 2: You may log in with: Account 518030910002, Password 2
 ```
 
 Or you can just `cd bin` and double click the two executable files to replace the code running operations above.
