@@ -1,25 +1,24 @@
+
+
 # Messenger
 
 A simple chat tool implemented from scratch.  Coursework of course IS301, Computer Communication and Network, SJTU.
 
-<div align=center><img src="imgs/login_background.png" alt="Logo" title="Logo" style="zoom: 200%;" /></div>
-
-<!-- TOC -->
-
-- ##### [Messenger](#messenger)
-  
-  - ##### [Getting Started](#getting-started)
-    
-    - ##### [Prerequisites](#prerequisites)
-  - ##### [Usage](#usage)
-  - ##### [Supplement](#supplement)
-    
-    - ##### [IP Settings](#ip-settings)
-    - ##### [Original Accounts](#original-accounts)
-  - ##### [Contributor](#contributor)
-  - ##### [Contact Me](#contact-me)
+- [Messenger](#messenger)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+  - [Supplement](#supplement)
+    - [IP Settings](#ip-settings)
+    - [Original Accounts](#original-accounts)
+  - [Contributor](#contributor)
+  - [Contact Me](#contact-me)
 
 <!-- /TOC -->
+
+<div align=center><img src="imgs/login_background.png" alt="Logo" title="Logo" style="zoom: 400%;" /></div>
+
+<!-- TOC -->
 
 ## Getting Started
 
