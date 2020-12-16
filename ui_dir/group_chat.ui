@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>771</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>771</width>
+    <height>585</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>771</width>
+    <height>588</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>QQ群聊</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>image/QQicon.ico</normaloff>image/QQicon.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>49</y>
+      <width>531</width>
+      <height>531</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>11</y>
+       <width>511</width>
+       <height>301</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>350</y>
+       <width>511</width>
+       <height>121</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>480</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(38, 99, 184);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Shut Down</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>480</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(38, 99, 184);
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>Send</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>320</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>imgs/imagebutton.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>320</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>imgs/emojibutton.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>320</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>imgs/filebutton.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>0</y>
+      <width>531</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(38, 99, 184);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>10</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Black</family>
+       <pointsize>14</pointsize>
+       <weight>10</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 87 14pt &quot;Arial Black&quot;;</string>
+     </property>
+     <property name="text">
+      <string>GROUP_1</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-1</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(234, 234, 234);</string>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="text">
+     <string>518030910001</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::MarkdownText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>39</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(216, 216, 216);</string>
+    </property>
+    <property name="text">
+     <string>MEMBERS</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>241</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(216, 216, 216);</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <item>
+     <property name="text">
+      <string>518030910003</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imgs/avatar_icon.png</normaloff>imgs/avatar_icon.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>518030910002</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imgs/avatar_icon.png</normaloff>imgs/avatar_icon.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>518030910001</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imgs/avatar_icon.png</normaloff>imgs/avatar_icon.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>518030910004</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imgs/avatar_icon.png</normaloff>imgs/avatar_icon.png</iconset>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="frist.qrc"/>
+ </resources>
+ <connections/>
+</ui>

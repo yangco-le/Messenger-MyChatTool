@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>326</width>
+    <height>627</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>326</width>
+    <height>627</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>326</width>
+    <height>627</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>QQ</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>image/QQ1.jpg</normaloff>image/QQ1.jpg</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>331</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>110</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Baskerville Old Face</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(10, 10, 10);
+background-color: rgb(255, 255, 255);
+</string>
+     </property>
+     <property name="text">
+      <string>Welcome</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::PlainText</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>30</y>
+       <width>72</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>imgs/avatar_icon.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>140</y>
+      <width>326</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>2</y>
+       <width>163</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 239, 239);</string>
+     </property>
+     <property name="text">
+      <string>Personal Chat</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>2</y>
+       <width>171</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 248, 248);</string>
+     </property>
+     <property name="text">
+      <string>Group Chat</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>171</y>
+      <width>331</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+    <item>
+     <property name="text">
+      <string>  GROUP 1</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imgs/group_icon.png</normaloff>imgs/group_icon.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>  GROUP 2</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imgs/group_icon.png</normaloff>imgs/group_icon.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>  GROUP 3</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imgs/group_icon.png</normaloff>imgs/group_icon.png</iconset>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>  GROUP 4</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>imgs/group_icon.png</normaloff>imgs/group_icon.png</iconset>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTreeWidget" name="treeWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>170</y>
+      <width>331</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="autoScrollMargin">
+     <number>10</number>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="autoExpandDelay">
+     <number>-1</number>
+    </property>
+    <property name="indentation">
+     <number>6</number>
+    </property>
+    <property name="columnCount">
+     <number>1</number>
+    </property>
+    <column>
+     <property name="text">
+      <string>MENU</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <italic>true</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+    </column>
+    <item>
+     <property name="text">
+      <string>FRIENDS</string>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>  STUDENT A</string>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>imgs/avatar_icon.png</normaloff>imgs/avatar_icon.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>  STUDENT B</string>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>imgs/avatar_icon.png</normaloff>imgs/avatar_icon.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>  STUDENT C</string>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>imgs/avatar_icon.png</normaloff>imgs/avatar_icon.png</iconset>
+      </property>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>FAMILY</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>  STUDENT D</string>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>imgs/avatar_icon.png</normaloff>imgs/avatar_icon.png</iconset>
+      </property>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>CLASSMATES</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>  STUDENT E</string>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>imgs/avatar_icon.png</normaloff>imgs/avatar_icon.png</iconset>
+      </property>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>FRIENDS</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>  STUDENT F</string>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>imgs/avatar_icon.png</normaloff>imgs/avatar_icon.png</iconset>
+      </property>
+     </item>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="frist.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>listWidget</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>105</x>
+     <y>156</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>104</x>
+     <y>255</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>listWidget</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>245</x>
+     <y>157</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>213</x>
+     <y>284</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>treeWidget</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>69</x>
+     <y>155</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>58</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>treeWidget</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>212</x>
+     <y>165</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>176</x>
+     <y>360</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
