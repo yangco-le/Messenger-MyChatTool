@@ -2,7 +2,7 @@
 
 <!-- /TOC -->
 
-<div align=center><img src="imgs/login_background.png" alt="Logo" title="Logo" width="700px"/></div>
+<div align=center><img src="imgs/logo.png" alt="Logo" title="Logo" width="700px"/></div>
 
 <!-- TOC -->
 
