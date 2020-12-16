@@ -1,0 +1,3 @@
+Test File
+
+All the files you receive during the chat will be saved in this folder, including files, pictures, emoticons, etc.
