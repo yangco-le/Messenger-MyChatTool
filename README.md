@@ -2,6 +2,12 @@
 
 # Messenger
 
+<!-- /TOC -->
+
+<div align=center><img src="imgs/login_background.png" alt="Logo" title="Logo" width="800px"/></div>
+
+<!-- TOC -->
+
 A simple chat tool implemented from scratch.  Coursework of course IS301, Computer Communication and Network, SJTU.
 
 - [Messenger](#messenger)
@@ -13,12 +19,6 @@ A simple chat tool implemented from scratch.  Coursework of course IS301, Comput
     - [Original Accounts](#original-accounts)
   - [Contributor](#contributor)
   - [Contact Me](#contact-me)
-
-<!-- /TOC -->
-
-<div align=center><img src="imgs/login_background.png" alt="Logo" title="Logo" style="zoom: 400%;" /></div>
-
-<!-- TOC -->
 
 ## Getting Started
 
