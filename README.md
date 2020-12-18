@@ -8,7 +8,7 @@
 
 # Messenger
 
-A simple chat tool implemented from scratch.  Coursework of course IS301, Computer Communication and Network, SJTU.
+A simple chat tool implemented from scratch.  Coursework of  Computer Communication and Network, SJTU.
 
 - [Messenger](#messenger)
   - [Getting Started](#getting-started)
